@@ -16,4 +16,11 @@ public class FinalExamTest {
         assertEquals((long) 9, actualResult);
     }
 
+    @Test
+    public void input_20_should_return_19() {
+        long actualResult = finalExam.getResult(20);
+        assertEquals((long) 19, actualResult);
+    }
+
+
 }
