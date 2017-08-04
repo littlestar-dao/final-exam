@@ -49,4 +49,12 @@ public class Final02Test {
         assertEquals( 375,actualResult,0);
     }
 
+    @Test
+    public void buy_A_2should_return_425() {
+        final02.productA();
+        final02.productA();
+        double actualResult = final02.getResult();
+        assertEquals( 200,actualResult,0);
+    }
+
 }

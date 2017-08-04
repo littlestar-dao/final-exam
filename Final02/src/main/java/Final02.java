@@ -1,15 +1,16 @@
 public class Final02 {
     private double price;
-    private int buyA;
-    private int buyB;
-    private int buyC;
-    private int buyD;
-    private int buyE;
+    private int buyA=0;
+    private int buyB=0;
+    private int buyC=0;
+    private int buyD=0;
+    private int buyE=0;
     private String pA;
     private String pB;
     private String pC;
     private String pD;
     private String pE;
+//    private List<String> basket = new ArrayList<String>();
 
     public Final02(String product1, String product2, String product3, String product4, String product5) {
         this.pA = product1;
@@ -40,7 +41,10 @@ public class Final02 {
     }
 
     public double getResult() {
-        if (buyA == 1 && buyB == 1 && buyC == 1 && buyD == 1 && buyE == 1) {
+        if(buyA == 2){
+            price = buyA*100;
+        }
+        else if (buyA == 1 && buyB == 1 && buyC == 1 && buyD == 1 && buyE == 1) {
             price = (buyA + buyB + buyC + buyD + buyE) * 100 * 0.75;
         } else if (buyA == 1 && buyB == 1 && buyC == 1 && buyD == 1) {
             price = (buyA + buyB + buyC + buyD) * 100 * 0.8;
@@ -53,5 +57,4 @@ public class Final02 {
         }
         return price;
     }
-
 }
