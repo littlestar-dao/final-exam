@@ -3,7 +3,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class Final02Test {
-    Final02 final02 = new Final02("A", "B","C");
+    Final02 final02 = new Final02("A", "B","C", "D");
     @Test
     public void buy_A_1_should_return_100() {
         final02.productA();
@@ -26,6 +26,16 @@ public class Final02Test {
         final02.productC();
         double actualResult = final02.getResult();
         assertEquals( 270,actualResult,0);
+    }
+
+    @Test
+    public void buy_A_1_B_1_C_1_D_1should_return_320() {
+        final02.productA();
+        final02.productB();
+        final02.productC();
+        final02.productD();
+        double actualResult = final02.getResult();
+        assertEquals( 320,actualResult,0);
     }
 
 }
