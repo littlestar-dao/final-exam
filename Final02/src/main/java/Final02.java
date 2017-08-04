@@ -41,7 +41,11 @@ public class Final02 {
     }
 
     public double getResult() {
-        if(buyA == 2){
+        if(buyA == 2 && buyB ==1){
+            price = (buyA*100*0.95);
+            price += (buyB*100);
+        }
+        else if(buyA == 2){
             price = buyA*100;
         }
         else if (buyA == 1 && buyB == 1 && buyC == 1 && buyD == 1 && buyE == 1) {

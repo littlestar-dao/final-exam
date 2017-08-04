@@ -50,11 +50,20 @@ public class Final02Test {
     }
 
     @Test
-    public void buy_A_2should_return_425() {
+    public void buy_A_2should_return_200() {
         final02.productA();
         final02.productA();
         double actualResult = final02.getResult();
         assertEquals( 200,actualResult,0);
+    }
+
+    @Test
+    public void buy_A_2_B_1should_return_290() {
+        final02.productA();
+        final02.productA();
+        final02.productB();
+        double actualResult = final02.getResult();
+        assertEquals( 290,actualResult,0);
     }
 
 }
