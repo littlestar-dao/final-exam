@@ -10,5 +10,10 @@ public class FinalExamTest {
         assertEquals((long) 8, actualResult);
     }
 
+    @Test
+    public void input_10_should_return_9() {
+        long actualResult = finalExam.getResult(10);
+        assertEquals((long) 9, actualResult);
+    }
 
 }

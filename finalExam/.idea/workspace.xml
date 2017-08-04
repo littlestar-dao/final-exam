@@ -26,23 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinalExam.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FinalExam.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FinalExam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-              <folding>
-                <element signature="e#91#92#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FinalExamTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FinalExamTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FinalExamTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FinalExam.java" />
         <option value="$PROJECT_DIR$/src/test/java/FinalExamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FinalExam.java" />
       </list>
     </option>
   </component>
@@ -260,19 +258,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FinalExamTest - 2017.08.04 at 14h 32m 27s.xml">
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 48m 31s.xml">
       <configuration name="FinalExamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FinalExamTest - 2017.08.04 at 14h 33m 05s.xml">
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 49m 19s.xml">
       <configuration name="FinalExamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FinalExamTest - 2017.08.04 at 14h 33m 46s.xml">
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 51m 28s.xml">
       <configuration name="FinalExamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FinalExamTest - 2017.08.04 at 14h 36m 43s.xml">
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 51m 46s.xml">
       <configuration name="FinalExamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FinalExamTest - 2017.08.04 at 14h 40m 17s.xml">
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 51m 56s.xml">
+      <configuration name="FinalExamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 55m 17s.xml">
+      <configuration name="FinalExamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 55m 52s.xml">
+      <configuration name="FinalExamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 56m 54s.xml">
+      <configuration name="FinalExamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 57m 03s.xml">
+      <configuration name="FinalExamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FinalExamTest - 2017.08.04 at 14h 57m 52s.xml">
       <configuration name="FinalExamTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -352,23 +365,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FinalExam.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FinalExamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
-            <element signature="e#91#92#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FinalExamTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FinalExam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
