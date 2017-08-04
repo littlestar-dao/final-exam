@@ -6,34 +6,28 @@ public class FinalExam {
 
     public long getResult(long input) {
         reduceInput = input;
-        if (isSorted(reduceInput)) {
-            if (count == 0) {
-                return input;
-            }else{
-                return reduceInput;
-            }
+        if ((input / 10) <1) {
+          return input;
         }
-        return reduceInput;
+        return isSorted(input);
     }
 
-    public boolean isSorted(long input) {
-        boolean flagS = false;
+    public long isSorted(long input) {
         String stringInput = input + "";
         long inputLength = stringInput.length();
         if (stringInput.length() == 1) {
-            return true;
+            return input;
         } else {
             count++;
             for (int digit = 1; digit < inputLength; digit++) {
                 if (Character.getNumericValue(stringInput.charAt(digit - 1)) < stringInput.charAt(digit)) {
-                    flagS =true;
                 }else{
                     reduceInput -= 1;
                     isSorted(reduceInput);
                 }
             }
             reduceInput -= 1;
-            return flagS;
+            return reduceInput;
         }
     }
 }
